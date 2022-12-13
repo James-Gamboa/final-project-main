@@ -1,0 +1,241 @@
+.account__btn {
+  //account__btn
+  color: $gray;
+  background-color: $black;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 400;
+  height: 40px;
+  margin: 10px 0;
+  text-align: center;
+  width: 160px;
+}
+
+.account__btn:hover {
+  //account__btn:hover
+  color: $neon-blue;
+  cursor: pointer;
+}
+
+.add__btn {
+  //btn-cart
+  background-color: #fff;
+  background-image: url(../../public/img/cart.png);
+  background-repeat: no-repeat;
+  background-position: 140px;
+  background-size: 40px;
+  border: $black solid 1px;
+  border-radius: 5px;
+  font-size: 36px;
+  font-weight: 500;
+  height: 57px;
+  margin: 10px 0;
+  padding: 8px 32px;
+  text-align: initial;
+  width: 222px;
+}
+
+.add__btn:hover {
+  //btn-cart:hover
+  border-color: $neon-blue;
+  cursor: pointer;
+}
+
+.account__form {
+  //account__form
+  border: solid 3px;
+  border-radius: 5px;
+  font-size: 24px;
+  display: block;
+  height: 57px;
+  margin: 25px 0 18px;
+  width: 606px;
+}
+
+.add__subscribe__btn {
+  //add__subscribe__btn
+  border: $neon-blue 1px solid;
+}
+
+.container-design-system --center {
+  //container-design-system --center
+  display: flex;
+  justify-content: space-around;
+}
+
+.create__btn {
+  //create__btn
+  background-color: #fff;
+  border: $black solid 1px;
+  border-radius: 5px;
+  font-size: 36px;
+  font-weight: 500;
+  height: 57px;
+  margin: 10px 0;
+  padding: 10px 0 0;
+  text-align: center;
+  width: 362px;
+}
+
+.create__btn:hover {
+  //create__btn :hover
+  color: $neon-blue;
+  cursor: pointer;
+}
+
+.container-design-system -system {
+  //container-design-system
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.design-system__body__font {
+  //design-system__body__font
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.design-system__caption__font {
+  //design-system__caption__font
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.design-system__subtitle {
+  //design-system__subtitle
+  color: #7d7d7d;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.example-hover__color {
+  //example-hover__color
+  color: $neon-blue;
+}
+
+.home-input__form {
+  //home-input__form
+  background-color: transparent;
+  border: $gray solid 3px;
+  border-radius: 5px;
+  display: block;
+  font-size: 24px;
+  height: 57px;
+  margin: 5px 43px 25px;
+  width: 419px;
+}
+
+.header-search__input {
+  //header-search__input
+  border: solid 1px;
+  border-radius: 5px;
+  display: block;
+  height: 46px;
+  width: 173px;
+}
+
+.header-search__input::placeholder {
+  //header-search__input ::placeholder
+  color: $black;
+}
+
+.header-search__input--position {
+  position: absolute;
+  top: 69px;
+}
+
+.icon__bg {
+  //icon__bg
+  background-color: $black;
+}
+
+.icons {
+  //icons
+  cursor: pointer;
+  display: flex;
+  height: 55px;
+  justify-content: center;
+  img {
+    height: 100%;
+  }
+}
+
+.no-style__list {
+  //no-style__list
+  list-style: none;
+  padding-left: 0;
+}
+
+.subscribe__btn {
+  //subscribe__btn
+  background-color: $neon-blue;
+  border: $neon-blue solid 1px;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: 400;
+  height: 40px;
+  margin: 10px 0;
+  padding: 6px 26px;
+  width: 160px;
+}
+
+.subscribe__btn:hover {
+  //subscribe__btn:hover
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.subtitle {
+  //subtitle
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.title {
+  //title
+  color: $black;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.underline {
+  //underline
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header-search__input {
+    width: 74px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .account__form {
+    height: 42px;
+    width: 226px;
+  }
+
+  .create__btn {
+    font-size: 26px;
+    height: 47px;
+    margin: 29px 0;
+    width: 238px;
+  }
+
+  .header-search__input {
+    height: 35px;
+    top: 13px;
+    width: 276px;
+  }
+
+  .home-input__form {
+    width: 201px;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+}

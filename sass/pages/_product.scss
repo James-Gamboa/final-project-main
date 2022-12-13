@@ -1,0 +1,53 @@
+.container__flex{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h2.subtitle {
+  margin-top: 9px;
+  margin-left: 34px;
+}
+
+.container--product {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  flex-direction: column;
+  margin: 0% 0% 25% 0%;
+}
+
+.subtitle__secondary{
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  margin: 20px;
+}
+
+.text__price {
+  font-weight: 700;
+  font-size: 48px;
+  margin-bottom: 3rem;
+  line-height: 56px;
+  text-align: center;
+}
+
+.list__features--styles {
+  list-style: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  margin: 0% 0% 8% -8%;
+}
+
+.img__star{
+  margin: 2rem;
+}
+
+.img__corsair{
+  width: 497px;
+  height: 497px;
+  margin-top: 3.5%;
+  margin-left: 3%;
+}

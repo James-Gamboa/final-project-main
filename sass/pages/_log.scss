@@ -1,0 +1,81 @@
+.checkbox {
+  border: $black solid 2px;
+  border-radius: 5px;
+  height: 36px;
+  width: 36px;
+}
+
+.forgot-password:hover {
+  color: $neon-blue;
+}
+
+.log-in__form--center {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.log-in__form {
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+  font-weight: 400;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  max-width: 1115px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.password-asks {
+  display: flex;
+  font-size: 24px;
+  font-weight: 400;
+  gap: 188px;
+}
+
+.remind-checkbox {
+  align-items: center;
+  display: flex;
+}
+
+.subtitle__forms {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1349px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
+
+  .log-in__form {
+    font-size: 18px;
+  }
+
+  .profile-icon {
+    height: 165px;
+    width: auto;
+  }
+
+  .password-asks {
+    font-size: 18px;
+    gap: 53px;
+    margin: 22px 33px;
+  }
+}
